@@ -1,0 +1,183 @@
+* {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Raleway", Arial, sans-serif;
+}
+
+.content {
+    max-width: 1519px;
+}
+
+header {
+    position: sticky;
+    z-index: 1;
+    top: 0px;
+    background-color: #f1f1f1;
+    padding: 24px;
+    font-size: 24px;
+}
+
+nav .link li a {
+    color: #000;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 15px;
+    /* transition: all 1s ease-in-out; */
+}
+
+nav .link li a:hover {
+    background-color: grey;
+    border: 1px solid rgba(0, 0, 0, 0.877);
+
+}
+
+
+
+nav .link li {
+    display: inline-block;
+    list-style: none;
+    margin: 23px;
+}
+
+nav .link {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.left {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.right {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.left img {
+    width: 34%;
+}
+
+.right img {
+    width: 34%;
+}
+
+.g-light-grey {
+    color: #000;
+    background-color: #f1f1f1
+}
+
+.g-padding-64 {
+    padding-top: 90px;
+    padding-bottom: 64px;
+}
+
+.g-center {
+    text-align: center;
+}
+
+h2 {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    margin: 10px 0;
+    text-align: center;
+    padding: 21px;
+}
+
+.g-padding-32 {
+    padding: 24px 24px;
+}
+
+.g-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.g-light-grey img {
+    width: 300px;
+    height: 375px;
+
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+    box-shadow: 3px 11px 25px black;
+    /* transition: all 1s ease-in-out; */
+}
+/* 
+img:hover {
+    transform: scale(2, 2);
+} */
+
+form {
+    margin: auto;
+    width: 40%;
+}
+
+p {
+    margin: 24px;
+}
+
+.g-text-pink {
+    color: #e91e63;
+}
+
+.g-text-size {
+    font-size: 18px;
+}
+
+.form-group {
+    vertical-align: middle;
+}
+
+.form-group input {
+    font-family: 'Baloo Bhai 2', cursive;
+    text-align: center;
+    display: block;
+    width: 33vw;
+    padding: 1px;
+    border: 2px solid #00000047;
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 8px;
+}
+
+.btn {
+    font-family: 'Baloo Bhai 2', cursive;
+    padding: 4px 14px;
+    background-color: grey;
+    color: white;
+    border: 2px solid rgba(230, 228, 228, 0);
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.form-group button:hover {
+    background-color: #e91e63;
+
+}
+
+form button {
+    font-size: 20px;
+    display: block;
+    width: 31vw;
+    margin: 20px auto;
+    height: 45px;
+}
+
+.foot a:hover {
+    color: green;
+    text-shadow: 2px 5px 5px rgb(98, 214, 98), -2px -5px 5px rgb(98, 214, 98);
+}
+
+.g-hover-green {
+    color: black;
+}
